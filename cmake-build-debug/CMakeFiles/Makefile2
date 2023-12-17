@@ -71,6 +71,7 @@ all: CMakeFiles/04_Printf.dir/all
 all: CMakeFiles/05_Practice.dir/all
 all: CMakeFiles/06_review.dir/all
 all: CMakeFiles/01_Identifier.dir/all
+all: CMakeFiles/02_variable.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -87,6 +88,7 @@ clean: CMakeFiles/04_Printf.dir/clean
 clean: CMakeFiles/05_Practice.dir/clean
 clean: CMakeFiles/06_review.dir/clean
 clean: CMakeFiles/01_Identifier.dir/clean
+clean: CMakeFiles/02_variable.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -96,7 +98,7 @@ clean: CMakeFiles/01_Identifier.dir/clean
 CMakeFiles/CProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProject.dir\build.make CMakeFiles/CProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProject.dir\build.make CMakeFiles/CProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=21,22,23 "Built target CProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=24,25,26 "Built target CProject"
 .PHONY : CMakeFiles/CProject.dir/all
 
 # Build rule for subdir invocation for target.
@@ -122,12 +124,12 @@ CMakeFiles/CProject.dir/clean:
 CMakeFiles/01_Hello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target 01_Hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target 01_Hello"
 .PHONY : CMakeFiles/01_Hello.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01_Hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01_Hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01_Hello.dir/rule
@@ -148,7 +150,7 @@ CMakeFiles/01_Hello.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -174,7 +176,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/02_CommentTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_CommentTest.dir\build.make CMakeFiles/02_CommentTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_CommentTest.dir\build.make CMakeFiles/02_CommentTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 02_CommentTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target 02_CommentTest"
 .PHONY : CMakeFiles/02_CommentTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -200,7 +202,7 @@ CMakeFiles/02_CommentTest.dir/clean:
 CMakeFiles/03_HelloC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_HelloC.dir\build.make CMakeFiles/03_HelloC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_HelloC.dir\build.make CMakeFiles/03_HelloC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 03_HelloC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target 03_HelloC"
 .PHONY : CMakeFiles/03_HelloC.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,7 +228,7 @@ CMakeFiles/03_HelloC.dir/clean:
 CMakeFiles/04_Printf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_Printf.dir\build.make CMakeFiles/04_Printf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_Printf.dir\build.make CMakeFiles/04_Printf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 04_Printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target 04_Printf"
 .PHONY : CMakeFiles/04_Printf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -252,7 +254,7 @@ CMakeFiles/04_Printf.dir/clean:
 CMakeFiles/05_Practice.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_Practice.dir\build.make CMakeFiles/05_Practice.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_Practice.dir\build.make CMakeFiles/05_Practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 05_Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target 05_Practice"
 .PHONY : CMakeFiles/05_Practice.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +280,7 @@ CMakeFiles/05_Practice.dir/clean:
 CMakeFiles/06_review.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_review.dir\build.make CMakeFiles/06_review.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_review.dir\build.make CMakeFiles/06_review.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 06_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target 06_review"
 .PHONY : CMakeFiles/06_review.dir/all
 
 # Build rule for subdir invocation for target.
@@ -304,7 +306,7 @@ CMakeFiles/06_review.dir/clean:
 CMakeFiles/01_Identifier.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Identifier.dir\build.make CMakeFiles/01_Identifier.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Identifier.dir\build.make CMakeFiles/01_Identifier.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 01_Identifier"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target 01_Identifier"
 .PHONY : CMakeFiles/01_Identifier.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,6 +324,32 @@ CMakeFiles/01_Identifier.dir/rule: cmake_check_build_system
 CMakeFiles/01_Identifier.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Identifier.dir\build.make CMakeFiles/01_Identifier.dir/clean
 .PHONY : CMakeFiles/01_Identifier.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/02_variable.dir
+
+# All Build rule for target.
+CMakeFiles/02_variable.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target 02_variable"
+.PHONY : CMakeFiles/02_variable.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/02_variable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02_variable.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BLZWJ\Desktop\c\C-\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/02_variable.dir/rule
+
+# Convenience name for target.
+02_variable: CMakeFiles/02_variable.dir/rule
+.PHONY : 02_variable
+
+# clean rule for target.
+CMakeFiles/02_variable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/clean
+.PHONY : CMakeFiles/02_variable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

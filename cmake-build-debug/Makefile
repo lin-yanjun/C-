@@ -232,6 +232,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Identifier.dir\build.make CMakeFiles/01_Identifier.dir/build
 .PHONY : 01_Identifier/fast
 
+#=============================================================================
+# Target rules for targets named 02_variable
+
+# Build rule for target.
+02_variable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02_variable
+.PHONY : 02_variable
+
+# fast build rule for target.
+02_variable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/build
+.PHONY : 02_variable/fast
+
 chapter01/01_Hello.obj: chapter01/01_Hello.c.obj
 .PHONY : chapter01/01_Hello.obj
 
@@ -421,6 +434,33 @@ chapter02/01_Identifier.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Identifier.dir\build.make CMakeFiles/01_Identifier.dir/chapter02/01_Identifier.c.s
 .PHONY : chapter02/01_Identifier.c.s
 
+chapter02/02_variable.obj: chapter02/02_variable.c.obj
+.PHONY : chapter02/02_variable.obj
+
+# target to build an object file
+chapter02/02_variable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_variable.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.obj
+.PHONY : chapter02/02_variable.c.obj
+
+chapter02/02_variable.i: chapter02/02_variable.c.i
+.PHONY : chapter02/02_variable.i
+
+# target to preprocess a source file
+chapter02/02_variable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_variable.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.i
+.PHONY : chapter02/02_variable.c.i
+
+chapter02/02_variable.s: chapter02/02_variable.c.s
+.PHONY : chapter02/02_variable.s
+
+# target to generate assembly for a file
+chapter02/02_variable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_variable.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.s
+.PHONY : chapter02/02_variable.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -459,6 +499,7 @@ help:
 	@echo ... 01_Hello
 	@echo ... 01_Identifier
 	@echo ... 02_CommentTest
+	@echo ... 02_variable
 	@echo ... 03_HelloC
 	@echo ... 04_Printf
 	@echo ... 05_Practice
@@ -486,6 +527,9 @@ help:
 	@echo ... chapter02/01_Identifier.obj
 	@echo ... chapter02/01_Identifier.i
 	@echo ... chapter02/01_Identifier.s
+	@echo ... chapter02/02_variable.obj
+	@echo ... chapter02/02_variable.i
+	@echo ... chapter02/02_variable.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
