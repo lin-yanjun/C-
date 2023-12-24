@@ -15,6 +15,7 @@ add_executable(01_Hello chapter01/01_Hello.c
         chapter01/06_review.c
         chapter02/01_Identifier.c
         chapter02/02_variable.c
+        chapter02/03_int.c
 )
 add_executable(main main.c)
 add_executable(02_CommentTest chapter01/02_CommentTest.c)
@@ -24,3 +25,4 @@ add_executable(05_Practice chapter01/05_Practice.c)
 add_executable(06_review chapter01/06_review.c)
 add_executable(01_Identifier chapter02/01_Identifier.c)
 add_executable(02_variable chapter02/02_variable.c)
+add_executable(03_int chapter02/03_int.c)

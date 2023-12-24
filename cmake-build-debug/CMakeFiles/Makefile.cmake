@@ -55,4 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/05_Practice.dir/DependInfo.cmake"
   "CMakeFiles/06_review.dir/DependInfo.cmake"
   "CMakeFiles/01_Identifier.dir/DependInfo.cmake"
+  "CMakeFiles/02_variable.dir/DependInfo.cmake"
+  "CMakeFiles/03_int.dir/DependInfo.cmake"
   )

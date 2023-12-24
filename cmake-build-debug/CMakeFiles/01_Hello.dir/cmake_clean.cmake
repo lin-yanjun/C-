@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj.d"
   "CMakeFiles/01_Hello.dir/chapter02/02_variable.c.obj"
   "CMakeFiles/01_Hello.dir/chapter02/02_variable.c.obj.d"
+  "CMakeFiles/01_Hello.dir/chapter02/03_int.c.obj"
+  "CMakeFiles/01_Hello.dir/chapter02/03_int.c.obj.d"
   "lib01_Hello.dll.a"
 )
 

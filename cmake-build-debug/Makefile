@@ -245,6 +245,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/build
 .PHONY : 02_variable/fast
 
+#=============================================================================
+# Target rules for targets named 03_int
+
+# Build rule for target.
+03_int: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03_int
+.PHONY : 03_int
+
+# fast build rule for target.
+03_int/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/build
+.PHONY : 03_int/fast
+
 chapter01/01_Hello.obj: chapter01/01_Hello.c.obj
 .PHONY : chapter01/01_Hello.obj
 
@@ -461,6 +474,33 @@ chapter02/02_variable.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.s
 .PHONY : chapter02/02_variable.c.s
 
+chapter02/03_int.obj: chapter02/03_int.c.obj
+.PHONY : chapter02/03_int.obj
+
+# target to build an object file
+chapter02/03_int.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_int.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_int.c.obj
+.PHONY : chapter02/03_int.c.obj
+
+chapter02/03_int.i: chapter02/03_int.c.i
+.PHONY : chapter02/03_int.i
+
+# target to preprocess a source file
+chapter02/03_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_int.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_int.c.i
+.PHONY : chapter02/03_int.c.i
+
+chapter02/03_int.s: chapter02/03_int.c.s
+.PHONY : chapter02/03_int.s
+
+# target to generate assembly for a file
+chapter02/03_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_int.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_int.c.s
+.PHONY : chapter02/03_int.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -501,6 +541,7 @@ help:
 	@echo ... 02_CommentTest
 	@echo ... 02_variable
 	@echo ... 03_HelloC
+	@echo ... 03_int
 	@echo ... 04_Printf
 	@echo ... 05_Practice
 	@echo ... 06_review
@@ -530,6 +571,9 @@ help:
 	@echo ... chapter02/02_variable.obj
 	@echo ... chapter02/02_variable.i
 	@echo ... chapter02/02_variable.s
+	@echo ... chapter02/03_int.obj
+	@echo ... chapter02/03_int.i
+	@echo ... chapter02/03_int.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

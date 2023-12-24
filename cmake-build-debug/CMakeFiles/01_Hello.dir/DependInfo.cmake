@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/BLZWJ/Desktop/c/C-/chapter01/06_review.c" "CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj" "gcc" "CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj.d"
   "C:/Users/BLZWJ/Desktop/c/C-/chapter02/01_Identifier.c" "CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj" "gcc" "CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj.d"
   "C:/Users/BLZWJ/Desktop/c/C-/chapter02/02_variable.c" "CMakeFiles/01_Hello.dir/chapter02/02_variable.c.obj" "gcc" "CMakeFiles/01_Hello.dir/chapter02/02_variable.c.obj.d"
+  "C:/Users/BLZWJ/Desktop/c/C-/chapter02/03_int.c" "CMakeFiles/01_Hello.dir/chapter02/03_int.c.obj" "gcc" "CMakeFiles/01_Hello.dir/chapter02/03_int.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
