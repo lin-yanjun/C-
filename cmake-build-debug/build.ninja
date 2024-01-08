@@ -118,6 +118,36 @@ build CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj: C_COMPILER__01_Hello_
   OBJECT_DIR = CMakeFiles\01_Hello.dir
   OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter01
 
+build CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter01/06_review.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter01\06_review.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter01
+
+build CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/01_Identifier.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\01_Identifier.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
+build CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/02_Variable.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\02_Variable.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
+build CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/03_Int.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\03_Int.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
+build CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/04_FloatDouble.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\04_FloatDouble.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01_Hello
@@ -126,7 +156,7 @@ build CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj: C_COMPILER__01_Hello_
 #############################################
 # Link the executable 01_Hello.exe
 
-build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj
+build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01_Hello.dir
@@ -301,6 +331,171 @@ build 05_Practice.exe: C_EXECUTABLE_LINKER__05_Practice_Debug CMakeFiles/05_Prac
   TARGET_IMPLIB = lib05_Practice.dll.a
   TARGET_PDB = 05_Practice.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_review
+
+
+#############################################
+# Order-only phony target for 06_review
+
+build cmake_object_order_depends_target_06_review: phony || CMakeFiles/06_review.dir
+
+build CMakeFiles/06_review.dir/chapter01/06_review.c.obj: C_COMPILER__06_review_unscanned_Debug E$:/ClionDemo/CProject/chapter01/06_review.c || cmake_object_order_depends_target_06_review
+  DEP_FILE = CMakeFiles\06_review.dir\chapter01\06_review.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_review.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_review.dir\chapter01
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_review
+
+
+#############################################
+# Link the executable 06_review.exe
+
+build 06_review.exe: C_EXECUTABLE_LINKER__06_review_Debug CMakeFiles/06_review.dir/chapter01/06_review.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_review.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_review.exe
+  TARGET_IMPLIB = lib06_review.dll.a
+  TARGET_PDB = 06_review.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_Identifier
+
+
+#############################################
+# Order-only phony target for 01_Identifier
+
+build cmake_object_order_depends_target_01_Identifier: phony || CMakeFiles/01_Identifier.dir
+
+build CMakeFiles/01_Identifier.dir/chapter02/01_Identifier.c.obj: C_COMPILER__01_Identifier_unscanned_Debug E$:/ClionDemo/CProject/chapter02/01_Identifier.c || cmake_object_order_depends_target_01_Identifier
+  DEP_FILE = CMakeFiles\01_Identifier.dir\chapter02\01_Identifier.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Identifier.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Identifier.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_Identifier
+
+
+#############################################
+# Link the executable 01_Identifier.exe
+
+build 01_Identifier.exe: C_EXECUTABLE_LINKER__01_Identifier_Debug CMakeFiles/01_Identifier.dir/chapter02/01_Identifier.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_Identifier.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_Identifier.exe
+  TARGET_IMPLIB = lib01_Identifier.dll.a
+  TARGET_PDB = 01_Identifier.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_variable
+
+
+#############################################
+# Order-only phony target for 02_variable
+
+build cmake_object_order_depends_target_02_variable: phony || CMakeFiles/02_variable.dir
+
+build CMakeFiles/02_variable.dir/chapter02/02_Variable.c.obj: C_COMPILER__02_variable_unscanned_Debug E$:/ClionDemo/CProject/chapter02/02_Variable.c || cmake_object_order_depends_target_02_variable
+  DEP_FILE = CMakeFiles\02_variable.dir\chapter02\02_Variable.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_variable.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_variable.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_variable
+
+
+#############################################
+# Link the executable 02_variable.exe
+
+build 02_variable.exe: C_EXECUTABLE_LINKER__02_variable_Debug CMakeFiles/02_variable.dir/chapter02/02_Variable.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_variable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_variable.exe
+  TARGET_IMPLIB = lib02_variable.dll.a
+  TARGET_PDB = 02_variable.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_int
+
+
+#############################################
+# Order-only phony target for 03_int
+
+build cmake_object_order_depends_target_03_int: phony || CMakeFiles/03_int.dir
+
+build CMakeFiles/03_int.dir/chapter02/03_Int.c.obj: C_COMPILER__03_int_unscanned_Debug E$:/ClionDemo/CProject/chapter02/03_Int.c || cmake_object_order_depends_target_03_int
+  DEP_FILE = CMakeFiles\03_int.dir\chapter02\03_Int.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_int.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_int.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_int
+
+
+#############################################
+# Link the executable 03_int.exe
+
+build 03_int.exe: C_EXECUTABLE_LINKER__03_int_Debug CMakeFiles/03_int.dir/chapter02/03_Int.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_int.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_int.exe
+  TARGET_IMPLIB = lib03_int.dll.a
+  TARGET_PDB = 03_int.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_FloatDouble
+
+
+#############################################
+# Order-only phony target for 04_FloatDouble
+
+build cmake_object_order_depends_target_04_FloatDouble: phony || CMakeFiles/04_FloatDouble.dir
+
+build CMakeFiles/04_FloatDouble.dir/chapter02/04_FloatDouble.c.obj: C_COMPILER__04_FloatDouble_unscanned_Debug E$:/ClionDemo/CProject/chapter02/04_FloatDouble.c || cmake_object_order_depends_target_04_FloatDouble
+  DEP_FILE = CMakeFiles\04_FloatDouble.dir\chapter02\04_FloatDouble.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_FloatDouble.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_FloatDouble.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_FloatDouble
+
+
+#############################################
+# Link the executable 04_FloatDouble.exe
+
+build 04_FloatDouble.exe: C_EXECUTABLE_LINKER__04_FloatDouble_Debug CMakeFiles/04_FloatDouble.dir/chapter02/04_FloatDouble.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_FloatDouble.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_FloatDouble.exe
+  TARGET_IMPLIB = lib04_FloatDouble.dll.a
+  TARGET_PDB = 04_FloatDouble.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -329,13 +524,23 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 01_Hello: phony 01_Hello.exe
 
+build 01_Identifier: phony 01_Identifier.exe
+
 build 02_CommentTest: phony 02_CommentTest.exe
 
+build 02_variable: phony 02_variable.exe
+
 build 03_HelloC: phony 03_HelloC.exe
+
+build 03_int: phony 03_int.exe
+
+build 04_FloatDouble: phony 04_FloatDouble.exe
 
 build 04_Printf: phony 04_Printf.exe
 
 build 05_Practice: phony 05_Practice.exe
+
+build 06_review: phony 06_review.exe
 
 build CProject: phony CProject.exe
 
@@ -349,7 +554,7 @@ build main: phony main.exe
 #############################################
 # Folder: E:/ClionDemo/CProject/cmake-build-debug
 
-build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe
+build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe
 
 # =============================================================================
 # Built-in targets
