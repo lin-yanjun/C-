@@ -148,6 +148,12 @@ build CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj: C_COMPILER__01_Hel
   OBJECT_DIR = CMakeFiles\01_Hello.dir
   OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
 
+build CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/05_Char.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\05_Char.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01_Hello
@@ -156,7 +162,7 @@ build CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj: C_COMPILER__01_Hel
 #############################################
 # Link the executable 01_Hello.exe
 
-build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj
+build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01_Hello.dir
@@ -496,6 +502,39 @@ build 04_FloatDouble.exe: C_EXECUTABLE_LINKER__04_FloatDouble_Debug CMakeFiles/0
   TARGET_IMPLIB = lib04_FloatDouble.dll.a
   TARGET_PDB = 04_FloatDouble.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_Char
+
+
+#############################################
+# Order-only phony target for 05_Char
+
+build cmake_object_order_depends_target_05_Char: phony || CMakeFiles/05_Char.dir
+
+build CMakeFiles/05_Char.dir/chapter02/05_Char.c.obj: C_COMPILER__05_Char_unscanned_Debug E$:/ClionDemo/CProject/chapter02/05_Char.c || cmake_object_order_depends_target_05_Char
+  DEP_FILE = CMakeFiles\05_Char.dir\chapter02\05_Char.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_Char.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_Char.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_Char
+
+
+#############################################
+# Link the executable 05_Char.exe
+
+build 05_Char.exe: C_EXECUTABLE_LINKER__05_Char_Debug CMakeFiles/05_Char.dir/chapter02/05_Char.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05_Char.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05_Char.exe
+  TARGET_IMPLIB = lib05_Char.dll.a
+  TARGET_PDB = 05_Char.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -538,6 +577,8 @@ build 04_FloatDouble: phony 04_FloatDouble.exe
 
 build 04_Printf: phony 04_Printf.exe
 
+build 05_Char: phony 05_Char.exe
+
 build 05_Practice: phony 05_Practice.exe
 
 build 06_review: phony 06_review.exe
@@ -554,7 +595,7 @@ build main: phony main.exe
 #############################################
 # Folder: E:/ClionDemo/CProject/cmake-build-debug
 
-build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe
+build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe 05_Char.exe
 
 # =============================================================================
 # Built-in targets

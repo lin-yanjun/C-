@@ -10,5 +10,6 @@ E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/01_Identifier.dir
 E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/02_variable.dir
 E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/03_int.dir
 E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/04_FloatDouble.dir
+E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/05_Char.dir
 E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/ClionDemo/CProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
