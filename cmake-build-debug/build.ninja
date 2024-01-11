@@ -154,6 +154,18 @@ build CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj: C_COMPILER__01_Hello_unsc
   OBJECT_DIR = CMakeFiles\01_Hello.dir
   OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
 
+build CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/06_Boolean.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\06_Boolean.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
+build CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/06_BooleanTeat.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\06_BooleanTeat.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01_Hello
@@ -162,7 +174,7 @@ build CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj: C_COMPILER__01_Hello_unsc
 #############################################
 # Link the executable 01_Hello.exe
 
-build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj
+build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.obj CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01_Hello.dir
@@ -535,6 +547,72 @@ build 05_Char.exe: C_EXECUTABLE_LINKER__05_Char_Debug CMakeFiles/05_Char.dir/cha
   TARGET_IMPLIB = lib05_Char.dll.a
   TARGET_PDB = 05_Char.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_Boolean
+
+
+#############################################
+# Order-only phony target for 06_Boolean
+
+build cmake_object_order_depends_target_06_Boolean: phony || CMakeFiles/06_Boolean.dir
+
+build CMakeFiles/06_Boolean.dir/chapter02/06_Boolean.c.obj: C_COMPILER__06_Boolean_unscanned_Debug E$:/ClionDemo/CProject/chapter02/06_Boolean.c || cmake_object_order_depends_target_06_Boolean
+  DEP_FILE = CMakeFiles\06_Boolean.dir\chapter02\06_Boolean.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_Boolean.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_Boolean.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_Boolean
+
+
+#############################################
+# Link the executable 06_Boolean.exe
+
+build 06_Boolean.exe: C_EXECUTABLE_LINKER__06_Boolean_Debug CMakeFiles/06_Boolean.dir/chapter02/06_Boolean.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_Boolean.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_Boolean.exe
+  TARGET_IMPLIB = lib06_Boolean.dll.a
+  TARGET_PDB = 06_Boolean.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_BooleanTeat
+
+
+#############################################
+# Order-only phony target for 06_BooleanTeat
+
+build cmake_object_order_depends_target_06_BooleanTeat: phony || CMakeFiles/06_BooleanTeat.dir
+
+build CMakeFiles/06_BooleanTeat.dir/chapter02/06_BooleanTeat.c.obj: C_COMPILER__06_BooleanTeat_unscanned_Debug E$:/ClionDemo/CProject/chapter02/06_BooleanTeat.c || cmake_object_order_depends_target_06_BooleanTeat
+  DEP_FILE = CMakeFiles\06_BooleanTeat.dir\chapter02\06_BooleanTeat.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_BooleanTeat.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_BooleanTeat.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_BooleanTeat
+
+
+#############################################
+# Link the executable 06_BooleanTeat.exe
+
+build 06_BooleanTeat.exe: C_EXECUTABLE_LINKER__06_BooleanTeat_Debug CMakeFiles/06_BooleanTeat.dir/chapter02/06_BooleanTeat.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_BooleanTeat.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_BooleanTeat.exe
+  TARGET_IMPLIB = lib06_BooleanTeat.dll.a
+  TARGET_PDB = 06_BooleanTeat.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -581,6 +659,10 @@ build 05_Char: phony 05_Char.exe
 
 build 05_Practice: phony 05_Practice.exe
 
+build 06_Boolean: phony 06_Boolean.exe
+
+build 06_BooleanTeat: phony 06_BooleanTeat.exe
+
 build 06_review: phony 06_review.exe
 
 build CProject: phony CProject.exe
@@ -595,7 +677,7 @@ build main: phony main.exe
 #############################################
 # Folder: E:/ClionDemo/CProject/cmake-build-debug
 
-build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe 05_Char.exe
+build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe 05_Char.exe 06_Boolean.exe 06_BooleanTeat.exe
 
 # =============================================================================
 # Built-in targets
