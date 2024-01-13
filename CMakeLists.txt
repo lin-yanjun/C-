@@ -20,6 +20,7 @@ add_executable(01_Hello chapter01/01_Hello.c
         chapter02/05_Char.c
         chapter02/06_Boolean.c
         chapter02/06_BooleanTeat.c
+        chapter02/06_BooleanTest2.c
 )
 add_executable(main main.c)
 add_executable(02_CommentTest chapter01/02_CommentTest.c)
@@ -34,3 +35,4 @@ add_executable(04_FloatDouble chapter02/04_FloatDouble.c)
 add_executable(05_Char chapter02/05_Char.c)
 add_executable(06_Boolean chapter02/06_Boolean.c)
 add_executable(06_BooleanTeat chapter02/06_BooleanTeat.c)
+add_executable(06_BooleanTest2 chapter02/06_BooleanTest2.c)

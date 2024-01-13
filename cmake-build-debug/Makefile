@@ -258,6 +258,71 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/build
 .PHONY : 03_int/fast
 
+#=============================================================================
+# Target rules for targets named 04_FloatDouble
+
+# Build rule for target.
+04_FloatDouble: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04_FloatDouble
+.PHONY : 04_FloatDouble
+
+# fast build rule for target.
+04_FloatDouble/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_FloatDouble.dir\build.make CMakeFiles/04_FloatDouble.dir/build
+.PHONY : 04_FloatDouble/fast
+
+#=============================================================================
+# Target rules for targets named 05_Char
+
+# Build rule for target.
+05_Char: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05_Char
+.PHONY : 05_Char
+
+# fast build rule for target.
+05_Char/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_Char.dir\build.make CMakeFiles/05_Char.dir/build
+.PHONY : 05_Char/fast
+
+#=============================================================================
+# Target rules for targets named 06_Boolean
+
+# Build rule for target.
+06_Boolean: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 06_Boolean
+.PHONY : 06_Boolean
+
+# fast build rule for target.
+06_Boolean/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_Boolean.dir\build.make CMakeFiles/06_Boolean.dir/build
+.PHONY : 06_Boolean/fast
+
+#=============================================================================
+# Target rules for targets named 06_BooleanTeat
+
+# Build rule for target.
+06_BooleanTeat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 06_BooleanTeat
+.PHONY : 06_BooleanTeat
+
+# fast build rule for target.
+06_BooleanTeat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTeat.dir\build.make CMakeFiles/06_BooleanTeat.dir/build
+.PHONY : 06_BooleanTeat/fast
+
+#=============================================================================
+# Target rules for targets named 06_BooleanTest2
+
+# Build rule for target.
+06_BooleanTest2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 06_BooleanTest2
+.PHONY : 06_BooleanTest2
+
+# fast build rule for target.
+06_BooleanTest2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTest2.dir\build.make CMakeFiles/06_BooleanTest2.dir/build
+.PHONY : 06_BooleanTest2/fast
+
 chapter01/01_Hello.obj: chapter01/01_Hello.c.obj
 .PHONY : chapter01/01_Hello.obj
 
@@ -447,59 +512,194 @@ chapter02/01_Identifier.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Identifier.dir\build.make CMakeFiles/01_Identifier.dir/chapter02/01_Identifier.c.s
 .PHONY : chapter02/01_Identifier.c.s
 
-chapter02/02_variable.obj: chapter02/02_variable.c.obj
-.PHONY : chapter02/02_variable.obj
+chapter02/02_Variable.obj: chapter02/02_Variable.c.obj
+.PHONY : chapter02/02_Variable.obj
 
 # target to build an object file
-chapter02/02_variable.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_variable.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.obj
-.PHONY : chapter02/02_variable.c.obj
+chapter02/02_Variable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_Variable.c.obj
+.PHONY : chapter02/02_Variable.c.obj
 
-chapter02/02_variable.i: chapter02/02_variable.c.i
-.PHONY : chapter02/02_variable.i
+chapter02/02_Variable.i: chapter02/02_Variable.c.i
+.PHONY : chapter02/02_Variable.i
 
 # target to preprocess a source file
-chapter02/02_variable.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_variable.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.i
-.PHONY : chapter02/02_variable.c.i
+chapter02/02_Variable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_Variable.c.i
+.PHONY : chapter02/02_Variable.c.i
 
-chapter02/02_variable.s: chapter02/02_variable.c.s
-.PHONY : chapter02/02_variable.s
+chapter02/02_Variable.s: chapter02/02_Variable.c.s
+.PHONY : chapter02/02_Variable.s
 
 # target to generate assembly for a file
-chapter02/02_variable.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_variable.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_variable.c.s
-.PHONY : chapter02/02_variable.c.s
+chapter02/02_Variable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_variable.dir\build.make CMakeFiles/02_variable.dir/chapter02/02_Variable.c.s
+.PHONY : chapter02/02_Variable.c.s
 
-chapter02/03_int.obj: chapter02/03_int.c.obj
-.PHONY : chapter02/03_int.obj
+chapter02/03_Int.obj: chapter02/03_Int.c.obj
+.PHONY : chapter02/03_Int.obj
 
 # target to build an object file
-chapter02/03_int.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_int.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_int.c.obj
-.PHONY : chapter02/03_int.c.obj
+chapter02/03_Int.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_Int.c.obj
+.PHONY : chapter02/03_Int.c.obj
 
-chapter02/03_int.i: chapter02/03_int.c.i
-.PHONY : chapter02/03_int.i
+chapter02/03_Int.i: chapter02/03_Int.c.i
+.PHONY : chapter02/03_Int.i
 
 # target to preprocess a source file
-chapter02/03_int.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_int.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_int.c.i
-.PHONY : chapter02/03_int.c.i
+chapter02/03_Int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_Int.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_Int.c.i
+.PHONY : chapter02/03_Int.c.i
 
-chapter02/03_int.s: chapter02/03_int.c.s
-.PHONY : chapter02/03_int.s
+chapter02/03_Int.s: chapter02/03_Int.c.s
+.PHONY : chapter02/03_Int.s
 
 # target to generate assembly for a file
-chapter02/03_int.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_int.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_int.c.s
-.PHONY : chapter02/03_int.c.s
+chapter02/03_Int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/03_Int.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_int.dir\build.make CMakeFiles/03_int.dir/chapter02/03_Int.c.s
+.PHONY : chapter02/03_Int.c.s
+
+chapter02/04_FloatDouble.obj: chapter02/04_FloatDouble.c.obj
+.PHONY : chapter02/04_FloatDouble.obj
+
+# target to build an object file
+chapter02/04_FloatDouble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_FloatDouble.dir\build.make CMakeFiles/04_FloatDouble.dir/chapter02/04_FloatDouble.c.obj
+.PHONY : chapter02/04_FloatDouble.c.obj
+
+chapter02/04_FloatDouble.i: chapter02/04_FloatDouble.c.i
+.PHONY : chapter02/04_FloatDouble.i
+
+# target to preprocess a source file
+chapter02/04_FloatDouble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_FloatDouble.dir\build.make CMakeFiles/04_FloatDouble.dir/chapter02/04_FloatDouble.c.i
+.PHONY : chapter02/04_FloatDouble.c.i
+
+chapter02/04_FloatDouble.s: chapter02/04_FloatDouble.c.s
+.PHONY : chapter02/04_FloatDouble.s
+
+# target to generate assembly for a file
+chapter02/04_FloatDouble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_FloatDouble.dir\build.make CMakeFiles/04_FloatDouble.dir/chapter02/04_FloatDouble.c.s
+.PHONY : chapter02/04_FloatDouble.c.s
+
+chapter02/05_Char.obj: chapter02/05_Char.c.obj
+.PHONY : chapter02/05_Char.obj
+
+# target to build an object file
+chapter02/05_Char.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_Char.dir\build.make CMakeFiles/05_Char.dir/chapter02/05_Char.c.obj
+.PHONY : chapter02/05_Char.c.obj
+
+chapter02/05_Char.i: chapter02/05_Char.c.i
+.PHONY : chapter02/05_Char.i
+
+# target to preprocess a source file
+chapter02/05_Char.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/05_Char.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_Char.dir\build.make CMakeFiles/05_Char.dir/chapter02/05_Char.c.i
+.PHONY : chapter02/05_Char.c.i
+
+chapter02/05_Char.s: chapter02/05_Char.c.s
+.PHONY : chapter02/05_Char.s
+
+# target to generate assembly for a file
+chapter02/05_Char.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/05_Char.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_Char.dir\build.make CMakeFiles/05_Char.dir/chapter02/05_Char.c.s
+.PHONY : chapter02/05_Char.c.s
+
+chapter02/06_Boolean.obj: chapter02/06_Boolean.c.obj
+.PHONY : chapter02/06_Boolean.obj
+
+# target to build an object file
+chapter02/06_Boolean.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_Boolean.dir\build.make CMakeFiles/06_Boolean.dir/chapter02/06_Boolean.c.obj
+.PHONY : chapter02/06_Boolean.c.obj
+
+chapter02/06_Boolean.i: chapter02/06_Boolean.c.i
+.PHONY : chapter02/06_Boolean.i
+
+# target to preprocess a source file
+chapter02/06_Boolean.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_Boolean.dir\build.make CMakeFiles/06_Boolean.dir/chapter02/06_Boolean.c.i
+.PHONY : chapter02/06_Boolean.c.i
+
+chapter02/06_Boolean.s: chapter02/06_Boolean.c.s
+.PHONY : chapter02/06_Boolean.s
+
+# target to generate assembly for a file
+chapter02/06_Boolean.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_Boolean.dir\build.make CMakeFiles/06_Boolean.dir/chapter02/06_Boolean.c.s
+.PHONY : chapter02/06_Boolean.c.s
+
+chapter02/06_BooleanTeat.obj: chapter02/06_BooleanTeat.c.obj
+.PHONY : chapter02/06_BooleanTeat.obj
+
+# target to build an object file
+chapter02/06_BooleanTeat.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTeat.dir\build.make CMakeFiles/06_BooleanTeat.dir/chapter02/06_BooleanTeat.c.obj
+.PHONY : chapter02/06_BooleanTeat.c.obj
+
+chapter02/06_BooleanTeat.i: chapter02/06_BooleanTeat.c.i
+.PHONY : chapter02/06_BooleanTeat.i
+
+# target to preprocess a source file
+chapter02/06_BooleanTeat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTeat.dir\build.make CMakeFiles/06_BooleanTeat.dir/chapter02/06_BooleanTeat.c.i
+.PHONY : chapter02/06_BooleanTeat.c.i
+
+chapter02/06_BooleanTeat.s: chapter02/06_BooleanTeat.c.s
+.PHONY : chapter02/06_BooleanTeat.s
+
+# target to generate assembly for a file
+chapter02/06_BooleanTeat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTeat.dir\build.make CMakeFiles/06_BooleanTeat.dir/chapter02/06_BooleanTeat.c.s
+.PHONY : chapter02/06_BooleanTeat.c.s
+
+chapter02/06_BooleanTest2.obj: chapter02/06_BooleanTest2.c.obj
+.PHONY : chapter02/06_BooleanTest2.obj
+
+# target to build an object file
+chapter02/06_BooleanTest2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_BooleanTest2.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTest2.dir\build.make CMakeFiles/06_BooleanTest2.dir/chapter02/06_BooleanTest2.c.obj
+.PHONY : chapter02/06_BooleanTest2.c.obj
+
+chapter02/06_BooleanTest2.i: chapter02/06_BooleanTest2.c.i
+.PHONY : chapter02/06_BooleanTest2.i
+
+# target to preprocess a source file
+chapter02/06_BooleanTest2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_BooleanTest2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTest2.dir\build.make CMakeFiles/06_BooleanTest2.dir/chapter02/06_BooleanTest2.c.i
+.PHONY : chapter02/06_BooleanTest2.c.i
+
+chapter02/06_BooleanTest2.s: chapter02/06_BooleanTest2.c.s
+.PHONY : chapter02/06_BooleanTest2.s
+
+# target to generate assembly for a file
+chapter02/06_BooleanTest2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/06_BooleanTest2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTest2.dir\build.make CMakeFiles/06_BooleanTest2.dir/chapter02/06_BooleanTest2.c.s
+.PHONY : chapter02/06_BooleanTest2.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -542,8 +742,13 @@ help:
 	@echo ... 02_variable
 	@echo ... 03_HelloC
 	@echo ... 03_int
+	@echo ... 04_FloatDouble
 	@echo ... 04_Printf
+	@echo ... 05_Char
 	@echo ... 05_Practice
+	@echo ... 06_Boolean
+	@echo ... 06_BooleanTeat
+	@echo ... 06_BooleanTest2
 	@echo ... 06_review
 	@echo ... CProject
 	@echo ... main
@@ -568,12 +773,27 @@ help:
 	@echo ... chapter02/01_Identifier.obj
 	@echo ... chapter02/01_Identifier.i
 	@echo ... chapter02/01_Identifier.s
-	@echo ... chapter02/02_variable.obj
-	@echo ... chapter02/02_variable.i
-	@echo ... chapter02/02_variable.s
-	@echo ... chapter02/03_int.obj
-	@echo ... chapter02/03_int.i
-	@echo ... chapter02/03_int.s
+	@echo ... chapter02/02_Variable.obj
+	@echo ... chapter02/02_Variable.i
+	@echo ... chapter02/02_Variable.s
+	@echo ... chapter02/03_Int.obj
+	@echo ... chapter02/03_Int.i
+	@echo ... chapter02/03_Int.s
+	@echo ... chapter02/04_FloatDouble.obj
+	@echo ... chapter02/04_FloatDouble.i
+	@echo ... chapter02/04_FloatDouble.s
+	@echo ... chapter02/05_Char.obj
+	@echo ... chapter02/05_Char.i
+	@echo ... chapter02/05_Char.s
+	@echo ... chapter02/06_Boolean.obj
+	@echo ... chapter02/06_Boolean.i
+	@echo ... chapter02/06_Boolean.s
+	@echo ... chapter02/06_BooleanTeat.obj
+	@echo ... chapter02/06_BooleanTeat.i
+	@echo ... chapter02/06_BooleanTeat.s
+	@echo ... chapter02/06_BooleanTest2.obj
+	@echo ... chapter02/06_BooleanTest2.i
+	@echo ... chapter02/06_BooleanTest2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -413,6 +413,186 @@
 					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="04_FloatDouble">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/04_FloatDouble.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 04_FloatDouble"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_FloatDouble/fast">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/04_FloatDouble.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 04_FloatDouble/fast"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_Char">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/05_Char.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_Char"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_Char/fast">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/05_Char.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_Char/fast"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_Boolean">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/06_Boolean.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_Boolean"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_Boolean/fast">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/06_Boolean.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_Boolean/fast"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_BooleanTeat">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/06_BooleanTeat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_BooleanTeat"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_BooleanTeat/fast">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/06_BooleanTeat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_BooleanTeat/fast"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_BooleanTest2">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/06_BooleanTest2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_BooleanTest2"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_BooleanTest2/fast">
+				<Option output="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/06_BooleanTest2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_BooleanTest2/fast"/>
+					<CompileFile command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/BLZWJ/Desktop/c/C-/cmake-build-debug"/>
 				<Option type="4"/>
@@ -462,13 +642,33 @@
 			<Option target="01_Hello"/>
 			<Option target="01_Identifier"/>
 		</Unit>
-		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/02_variable.c">
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/02_Variable.c">
 			<Option target="01_Hello"/>
 			<Option target="02_variable"/>
 		</Unit>
-		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/03_int.c">
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/03_Int.c">
 			<Option target="01_Hello"/>
 			<Option target="03_int"/>
+		</Unit>
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/04_FloatDouble.c">
+			<Option target="01_Hello"/>
+			<Option target="04_FloatDouble"/>
+		</Unit>
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/05_Char.c">
+			<Option target="01_Hello"/>
+			<Option target="05_Char"/>
+		</Unit>
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/06_Boolean.c">
+			<Option target="01_Hello"/>
+			<Option target="06_Boolean"/>
+		</Unit>
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/06_BooleanTeat.c">
+			<Option target="01_Hello"/>
+			<Option target="06_BooleanTeat"/>
+		</Unit>
+		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/chapter02/06_BooleanTest2.c">
+			<Option target="01_Hello"/>
+			<Option target="06_BooleanTest2"/>
 		</Unit>
 		<Unit filename="C:/Users/BLZWJ/Desktop/c/C-/main.c">
 			<Option target="CProject"/>
