@@ -323,6 +323,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTest2.dir\build.make CMakeFiles/06_BooleanTest2.dir/build
 .PHONY : 06_BooleanTest2/fast
 
+#=============================================================================
+# Target rules for targets named 07_ValueConvert
+
+# Build rule for target.
+07_ValueConvert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07_ValueConvert
+.PHONY : 07_ValueConvert
+
+# fast build rule for target.
+07_ValueConvert/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_ValueConvert.dir\build.make CMakeFiles/07_ValueConvert.dir/build
+.PHONY : 07_ValueConvert/fast
+
 chapter01/01_Hello.obj: chapter01/01_Hello.c.obj
 .PHONY : chapter01/01_Hello.obj
 
@@ -701,6 +714,33 @@ chapter02/06_BooleanTest2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_BooleanTest2.dir\build.make CMakeFiles/06_BooleanTest2.dir/chapter02/06_BooleanTest2.c.s
 .PHONY : chapter02/06_BooleanTest2.c.s
 
+chapter02/07_ValueConvert.obj: chapter02/07_ValueConvert.c.obj
+.PHONY : chapter02/07_ValueConvert.obj
+
+# target to build an object file
+chapter02/07_ValueConvert.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/07_ValueConvert.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_ValueConvert.dir\build.make CMakeFiles/07_ValueConvert.dir/chapter02/07_ValueConvert.c.obj
+.PHONY : chapter02/07_ValueConvert.c.obj
+
+chapter02/07_ValueConvert.i: chapter02/07_ValueConvert.c.i
+.PHONY : chapter02/07_ValueConvert.i
+
+# target to preprocess a source file
+chapter02/07_ValueConvert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/07_ValueConvert.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_ValueConvert.dir\build.make CMakeFiles/07_ValueConvert.dir/chapter02/07_ValueConvert.c.i
+.PHONY : chapter02/07_ValueConvert.c.i
+
+chapter02/07_ValueConvert.s: chapter02/07_ValueConvert.c.s
+.PHONY : chapter02/07_ValueConvert.s
+
+# target to generate assembly for a file
+chapter02/07_ValueConvert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_Hello.dir\build.make CMakeFiles/01_Hello.dir/chapter02/07_ValueConvert.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_ValueConvert.dir\build.make CMakeFiles/07_ValueConvert.dir/chapter02/07_ValueConvert.c.s
+.PHONY : chapter02/07_ValueConvert.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -750,6 +790,7 @@ help:
 	@echo ... 06_BooleanTeat
 	@echo ... 06_BooleanTest2
 	@echo ... 06_review
+	@echo ... 07_ValueConvert
 	@echo ... CProject
 	@echo ... main
 	@echo ... chapter01/01_Hello.obj
@@ -794,6 +835,9 @@ help:
 	@echo ... chapter02/06_BooleanTest2.obj
 	@echo ... chapter02/06_BooleanTest2.i
 	@echo ... chapter02/06_BooleanTest2.s
+	@echo ... chapter02/07_ValueConvert.obj
+	@echo ... chapter02/07_ValueConvert.i
+	@echo ... chapter02/07_ValueConvert.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
