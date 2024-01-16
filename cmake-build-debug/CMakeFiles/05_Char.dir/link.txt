@@ -1,3 +1,0 @@
-"D:\study\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\05_Char.dir/objects.a
-D:\study\mingw64\bin\ar.exe qc CMakeFiles\05_Char.dir/objects.a @CMakeFiles\05_Char.dir\objects1.rsp
-D:\study\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\05_Char.dir/objects.a -Wl,--no-whole-archive -o 05_Char.exe -Wl,--out-implib,lib05_Char.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\05_Char.dir\linkLibs.rsp

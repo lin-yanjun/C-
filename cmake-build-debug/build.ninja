@@ -166,6 +166,24 @@ build CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj: C_COMPILER__01_Hel
   OBJECT_DIR = CMakeFiles\01_Hello.dir
   OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
 
+build CMakeFiles/01_Hello.dir/chapter02/06_BooleanTest2.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/06_BooleanTest2.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\06_BooleanTest2.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
+build CMakeFiles/01_Hello.dir/chapter02/07_ValueConvert.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/07_ValueConvert.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\07_ValueConvert.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
+build CMakeFiles/01_Hello.dir/chapter02/08_Constant.c.obj: C_COMPILER__01_Hello_unscanned_Debug E$:/ClionDemo/CProject/chapter02/08_Constant.c || cmake_object_order_depends_target_01_Hello
+  DEP_FILE = CMakeFiles\01_Hello.dir\chapter02\08_Constant.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Hello.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Hello.dir\chapter02
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01_Hello
@@ -174,7 +192,7 @@ build CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj: C_COMPILER__01_Hel
 #############################################
 # Link the executable 01_Hello.exe
 
-build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.obj CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj
+build 01_Hello.exe: C_EXECUTABLE_LINKER__01_Hello_Debug CMakeFiles/01_Hello.dir/chapter01/01_Hello.c.obj CMakeFiles/01_Hello.dir/chapter01/02_CommentTest.c.obj CMakeFiles/01_Hello.dir/chapter01/03_HelloC.c.obj CMakeFiles/01_Hello.dir/chapter01/04_Printf.c.obj CMakeFiles/01_Hello.dir/chapter01/05_Practice.c.obj CMakeFiles/01_Hello.dir/chapter01/06_review.c.obj CMakeFiles/01_Hello.dir/chapter02/01_Identifier.c.obj CMakeFiles/01_Hello.dir/chapter02/02_Variable.c.obj CMakeFiles/01_Hello.dir/chapter02/03_Int.c.obj CMakeFiles/01_Hello.dir/chapter02/04_FloatDouble.c.obj CMakeFiles/01_Hello.dir/chapter02/05_Char.c.obj CMakeFiles/01_Hello.dir/chapter02/06_Boolean.c.obj CMakeFiles/01_Hello.dir/chapter02/06_BooleanTeat.c.obj CMakeFiles/01_Hello.dir/chapter02/06_BooleanTest2.c.obj CMakeFiles/01_Hello.dir/chapter02/07_ValueConvert.c.obj CMakeFiles/01_Hello.dir/chapter02/08_Constant.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01_Hello.dir
@@ -613,6 +631,105 @@ build 06_BooleanTeat.exe: C_EXECUTABLE_LINKER__06_BooleanTeat_Debug CMakeFiles/0
   TARGET_IMPLIB = lib06_BooleanTeat.dll.a
   TARGET_PDB = 06_BooleanTeat.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_BooleanTest2
+
+
+#############################################
+# Order-only phony target for 06_BooleanTest2
+
+build cmake_object_order_depends_target_06_BooleanTest2: phony || CMakeFiles/06_BooleanTest2.dir
+
+build CMakeFiles/06_BooleanTest2.dir/chapter02/06_BooleanTest2.c.obj: C_COMPILER__06_BooleanTest2_unscanned_Debug E$:/ClionDemo/CProject/chapter02/06_BooleanTest2.c || cmake_object_order_depends_target_06_BooleanTest2
+  DEP_FILE = CMakeFiles\06_BooleanTest2.dir\chapter02\06_BooleanTest2.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_BooleanTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_BooleanTest2.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_BooleanTest2
+
+
+#############################################
+# Link the executable 06_BooleanTest2.exe
+
+build 06_BooleanTest2.exe: C_EXECUTABLE_LINKER__06_BooleanTest2_Debug CMakeFiles/06_BooleanTest2.dir/chapter02/06_BooleanTest2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_BooleanTest2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_BooleanTest2.exe
+  TARGET_IMPLIB = lib06_BooleanTest2.dll.a
+  TARGET_PDB = 06_BooleanTest2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_ValueConvert
+
+
+#############################################
+# Order-only phony target for 07_ValueConvert
+
+build cmake_object_order_depends_target_07_ValueConvert: phony || CMakeFiles/07_ValueConvert.dir
+
+build CMakeFiles/07_ValueConvert.dir/chapter02/07_ValueConvert.c.obj: C_COMPILER__07_ValueConvert_unscanned_Debug E$:/ClionDemo/CProject/chapter02/07_ValueConvert.c || cmake_object_order_depends_target_07_ValueConvert
+  DEP_FILE = CMakeFiles\07_ValueConvert.dir\chapter02\07_ValueConvert.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\07_ValueConvert.dir
+  OBJECT_FILE_DIR = CMakeFiles\07_ValueConvert.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_ValueConvert
+
+
+#############################################
+# Link the executable 07_ValueConvert.exe
+
+build 07_ValueConvert.exe: C_EXECUTABLE_LINKER__07_ValueConvert_Debug CMakeFiles/07_ValueConvert.dir/chapter02/07_ValueConvert.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07_ValueConvert.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07_ValueConvert.exe
+  TARGET_IMPLIB = lib07_ValueConvert.dll.a
+  TARGET_PDB = 07_ValueConvert.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08_Constant
+
+
+#############################################
+# Order-only phony target for 08_Constant
+
+build cmake_object_order_depends_target_08_Constant: phony || CMakeFiles/08_Constant.dir
+
+build CMakeFiles/08_Constant.dir/chapter02/08_Constant.c.obj: C_COMPILER__08_Constant_unscanned_Debug E$:/ClionDemo/CProject/chapter02/08_Constant.c || cmake_object_order_depends_target_08_Constant
+  DEP_FILE = CMakeFiles\08_Constant.dir\chapter02\08_Constant.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\08_Constant.dir
+  OBJECT_FILE_DIR = CMakeFiles\08_Constant.dir\chapter02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08_Constant
+
+
+#############################################
+# Link the executable 08_Constant.exe
+
+build 08_Constant.exe: C_EXECUTABLE_LINKER__08_Constant_Debug CMakeFiles/08_Constant.dir/chapter02/08_Constant.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\08_Constant.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 08_Constant.exe
+  TARGET_IMPLIB = lib08_Constant.dll.a
+  TARGET_PDB = 08_Constant.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -663,7 +780,13 @@ build 06_Boolean: phony 06_Boolean.exe
 
 build 06_BooleanTeat: phony 06_BooleanTeat.exe
 
+build 06_BooleanTest2: phony 06_BooleanTest2.exe
+
 build 06_review: phony 06_review.exe
+
+build 07_ValueConvert: phony 07_ValueConvert.exe
+
+build 08_Constant: phony 08_Constant.exe
 
 build CProject: phony CProject.exe
 
@@ -677,7 +800,7 @@ build main: phony main.exe
 #############################################
 # Folder: E:/ClionDemo/CProject/cmake-build-debug
 
-build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe 05_Char.exe 06_Boolean.exe 06_BooleanTeat.exe
+build all: phony CProject.exe 01_Hello.exe main.exe 02_CommentTest.exe 03_HelloC.exe 04_Printf.exe 05_Practice.exe 06_review.exe 01_Identifier.exe 02_variable.exe 03_int.exe 04_FloatDouble.exe 05_Char.exe 06_Boolean.exe 06_BooleanTeat.exe 06_BooleanTest2.exe 07_ValueConvert.exe 08_Constant.exe
 
 # =============================================================================
 # Built-in targets

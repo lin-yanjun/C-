@@ -22,6 +22,7 @@ add_executable(01_Hello chapter01/01_Hello.c
         chapter02/06_BooleanTeat.c
         chapter02/06_BooleanTest2.c
         chapter02/07_ValueConvert.c
+        chapter02/08_Constant.c
 )
 add_executable(main main.c)
 add_executable(02_CommentTest chapter01/02_CommentTest.c)
@@ -38,3 +39,4 @@ add_executable(06_Boolean chapter02/06_Boolean.c)
 add_executable(06_BooleanTeat chapter02/06_BooleanTeat.c)
 add_executable(06_BooleanTest2 chapter02/06_BooleanTest2.c)
 add_executable(07_ValueConvert chapter02/07_ValueConvert.c)
+add_executable(08_Constant chapter02/08_Constant.c)

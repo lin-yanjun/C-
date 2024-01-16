@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_Hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_Hello-Debug-772c40880599be8038d6.json",
+					"name" : "01_Hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_Identifier::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_Identifier-Debug-216ab1b5e7ad0521da97.json",
+					"name" : "01_Identifier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_CommentTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_CommentTest-Debug-7dc7903ca6a809e82977.json",
+					"name" : "02_CommentTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_variable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_variable-Debug-0875029aefa0afc82bf4.json",
+					"name" : "02_variable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_HelloC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_HelloC-Debug-67370ea4dd99554d0a39.json",
+					"name" : "03_HelloC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_int-Debug-2f7f14622b214fc57c05.json",
+					"name" : "03_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_FloatDouble::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_FloatDouble-Debug-dd7563ea0ff0cf4fcf4c.json",
+					"name" : "04_FloatDouble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_Printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_Printf-Debug-0be544141528fb2b38d9.json",
+					"name" : "04_Printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_Char::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_Char-Debug-be214c5fd23ab61eb782.json",
+					"name" : "05_Char",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_Practice-Debug-77619f2b17ef7315b346.json",
+					"name" : "05_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_Boolean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_Boolean-Debug-7311d871c66083122437.json",
+					"name" : "06_Boolean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_BooleanTeat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_BooleanTeat-Debug-a55fb03adf62f318203f.json",
+					"name" : "06_BooleanTeat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_BooleanTest2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_BooleanTest2-Debug-1129d8f40167082d7a26.json",
+					"name" : "06_BooleanTest2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_review::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_review-Debug-63da7f1448566b8ba93e.json",
+					"name" : "06_review",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_ValueConvert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_ValueConvert-Debug-e9688aa961e8c48bce1d.json",
+					"name" : "07_ValueConvert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_Constant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_Constant-Debug-9ca29cc4bb34d1a82e22.json",
+					"name" : "08_Constant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CProject-Debug-4601395614021c455d86.json",
+					"name" : "CProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-0d0e584503fa5d53bfe7.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/ClionDemo/CProject/cmake-build-debug",
+		"source" : "E:/ClionDemo/CProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
